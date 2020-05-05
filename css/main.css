@@ -1,15 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto+Slab:wght@300&display=swap");
+html {
+  font-size: 63.5%; }
+
 body {
-  padding: 0 20px; }
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-family: "Roboto Slab";
+  color: brown;
+  background-color: ivory; }
 
-div.container {
-  font: Georgia 1.2em;
-  width: 700px; }
+h1 {
+  font-family: "Lobster Two";
+  color: #555;
+  font-size: 34px; }
 
-table {
-  border: 1px solid #eee; }
-  table tr:nth-child(odd) {
-    background: #eee; }
-  table td:first-child {
-    width: 150px; }
-  table th {
-    background-color: #ccc; }
+.container {
+  width: 80%;
+  margin: 0 auto; }

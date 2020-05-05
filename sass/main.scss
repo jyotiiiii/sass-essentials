@@ -1,24 +1,30 @@
-$myfont: Georgia 1.2em;
-$table_head_col: #ccc;
-$table_row_col: #eee;
-$table_bor_col: #eee;
-$container_width: 700px;
-$first_col_width: 150px;
-$main_padding: 0 20px;
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto+Slab:wght@300&display=swap');
 
-body {
-	padding: $main_padding;
-}
+$main_background: ivory;
+$main_font_color: brown;
+$font-family-main: 'Roboto Slab';
+$font-family-secondary: 'Lobster Two';
 
-div.container {
-	font: $myfont;
-	width: $container_width;
-}
-table {
-	tr:nth-child(odd) {background: $table_row_col}
-	td:first-child {width: $first_col_width}
-	th {
-		background-color: $table_head_col;
-	}
-	border: 1px solid $table_bor_col;
-}
+html {
+	font-size: 63.5%; 
+  }
+  
+  body {
+	margin: 0;
+	padding: 0;
+	font-size: 1.8rem;
+	font-family: $font-family-main;
+	color: $main_font_color;
+	background-color: $main_background;
+  }
+  
+  h1 {
+	  font-family: $font-family-secondary;
+	  color: #555;
+	  font-size: 34px;
+  }
+
+  .container {
+	width: 80%;
+	margin: 0 auto;
+  }
